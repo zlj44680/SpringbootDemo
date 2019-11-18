@@ -1,0 +1,182 @@
+.title{
+    text-align: center;
+    font-size: 60px;        
+}
+.b1{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:50px;
+}
+.b2{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:250px;
+
+}
+.b3{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:450px;
+
+}
+.b4{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:650px;
+
+}
+.b5{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:850px;
+
+}
+.b6{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:1050px;
+
+}
+.b7{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:1250px;
+
+}
+.b8{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:1450px;
+
+}
+.b9{
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:1650px;
+
+}
+.p1{
+    background-image: url(../鞋子.JPG);
+    width: 480px;
+    height: 400px;
+    background-size: 100% 100%;
+    position:absolute;
+    left:80px;
+    top: 300px;
+    
+   
+}
+.t1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:80px;
+    top: 700px
+    
+}
+.p2{
+    background-image: url(../礼服.JPG);
+    width: 480px;
+    height: 400px;
+    background-size: 100% 100%;
+    position:absolute;
+    left:680px;
+    top: 300px;
+    
+   
+}
+.t2{
+    font-size: 20px;
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:680px;
+    top: 700px
+    
+}
+.p3{
+    background-image: url(../书.JPG);
+    width: 480px;
+    height: 400px;
+    background-size: 100% 100%;
+    position:absolute;
+    left:1280px;
+    top: 300px;
+    
+   
+}
+.t3{
+    font-size: 20px;
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:1380px;
+    top: 700px
+    
+}
+.d1{
+  
+    font-size: 60px;
+    margin: 0;
+    padding: 0%;
+    position:absolute;
+    left:800px;
+    top: 200px
+    
+   
+}
+.footer {
+	width: 100;
+	height: 100px;
+    background-color: dimgrey;
+    opacity: 0.5;
+    position: relative;
+    top: 700px;
+}
+.copyright {
+	font-family: "宋体";
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
+	height: 60px;
+	width: 40%;
+	text-align:center;
+}
+.icon1 {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-left: 22px;
+	vertical-align: middle;
+	background-image: url(%E5%9C%B0%E5%9D%80.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.icon2 {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-left: 22px;
+	vertical-align: middle;
+	background-image: url(%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.p {
+	height: 24px;
+	width: 100%;
+}

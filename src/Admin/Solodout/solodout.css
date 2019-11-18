@@ -1,0 +1,79 @@
+
+
+
+.p1{
+    background-image: url(../礼服.JPG);
+    width: 280px;
+    height: 240px;
+    background-size: 100% 100%;
+    position:absolute;
+    left:80px;
+    top:50px;
+    
+   
+}
+.t1{
+    font-size: 30px;
+    position: absolute;
+    top: 300px;
+    left:90px;
+}
+.d1{
+
+    position: absolute;
+    top: 300px;
+    left:290px;
+
+}
+.p2{
+    background-image: url(../鞋子.JPG);
+    width: 280px;
+    height: 240px;
+    background-size: 100% 100%;
+    position:absolute;
+    left:480px;
+    top:50px;
+
+}
+.t2{
+    font-size: 30px;
+    position: absolute;
+    top: 300px;
+    left:490px;
+}
+.d2{
+    
+    position: absolute;
+    top: 300px;
+    left:690px;
+
+}
+.p3{
+    background-image: url(../书.JPG);
+    width: 280px;
+    height: 240px;
+    background-size: 100% 100%;
+    position:absolute;
+    left:880px;
+    top:50px;
+
+
+}
+.t3{
+    font-size: 30px;
+    position: absolute;
+    top: 300px;
+    left:890px;
+}
+.d3{
+    
+    position: absolute;
+    top: 300px;
+    left:1090px;
+
+}
+.e{
+    position: absolute;
+    top:600px;
+    left: 550px;
+}

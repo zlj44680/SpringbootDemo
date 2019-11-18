@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+.a1{
+    background-color: lightslategrey;
+}
+.p{
+    width: 1650px;
+    height: 900px;
+    background-color: oldlace;
+}
+.a2{
+    background-color: silver;
+}
+.title{
+    text-align: center;
+    color: darkred;
+    font-size: 60px;
+}
+.Button{
+    margin: 0;
+    padding: 0%;
+    position: absolute;
+    left:1150px;
+    top:50px;
+}

@@ -1,0 +1,34 @@
+.div{
+    height: 100%;
+    width: 100%;
+    background-color: #2c0c0c;
+}
+.Img{
+   text-align: center;
+    padding: 5px;
+
+    width: 100%;
+    height: 1000px;
+    background-image: url(./../花花.jpeg);
+    background-size: 100% 100%;
+
+    opacity: 0.7;
+}
+
+.text{
+    font-weight: 20px;
+    font-family: 微软雅黑;
+    color: #162549;
+    margin-top: 170px;
+    font-size: 80px;
+    position: relative;
+    top: 250px;
+    opacity: 0.85;
+}
+.d{
+    position: absolute;
+    top:840px;
+    font-size: 100px;
+    left:880px;
+    opacity: 0.85;
+}

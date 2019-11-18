@@ -1,0 +1,258 @@
+.background{
+    background-color: #f3f5f9;
+    height: 1000px;
+}
+.header{
+    
+     background-color:rgb(219, 217, 217);
+     height: 170px;
+    font-family: 微软雅黑;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    
+}  
+.ul li{
+    float: left;
+    list-style: none;
+    margin:  10px; 
+    font-weight:bold;
+    font-size: 17px;
+
+}
+
+.container {
+ 
+    height: 30px;
+    width: 100px;
+    margin: 100px auto 0 auto;
+}
+
+.search {
+    width: 400px;
+    height: 50px;
+    border-radius: px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    position: absolute;
+    font-size: 5px;
+    left:1px;
+    top:100px;
+}
+.btn {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    font-size: 8px;
+    text-align: center;
+    left: 410px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    top:100px;
+    background-color: darkslategrey;
+}
+.carousel {
+    padding: 25px;
+    text-align: center;
+    height: 700px;
+    widows: 1150px;
+    line-height: 160px;
+    overflow: hidden;
+  }
+  
+  .a{
+      height: 700px;
+      background: url(./../壁纸.JPG);
+      background-size: 100% 100%;
+
+  }
+  .b{
+      height: 700px;
+      background: url(./../img3.png);
+      background-size: 100% 100%;
+
+  }
+  .c{
+      height: 700px;
+      background: url(./../花花.jpeg);
+      background-size: 100% 100%;
+
+  }
+  .d{
+      height: 700px;
+      background: url(./../img5.png);
+      background-size: 100% 100%;
+
+  }
+
+  .text{
+   padding: 25px;
+    width: 100%;
+    height: 400px;
+    
+  
+  }
+ 
+  .A{text-align: center;
+      width: 25%;
+      height: 400px;
+      float:right;
+  }
+  .e{
+ 
+    width: 70%;
+    height: 300px;
+    background: url(./../专辑1.png); 
+    background-size: 100% 100%;
+
+  }
+
+  .B{
+
+    text-align: center;
+    width: 25%;
+    height: 400px;
+    float: right;}
+ .g{ 
+   
+  width: 70%;
+  height: 300px;
+  background: url(./../专辑2.png); 
+  background-size: 100% 100%;
+
+  
+}
+
+.C{
+    text-align: center;
+  width: 25%;
+  height: 400px;
+  float: right;
+}
+.i{
+width:70%;
+height: 300px;
+background: url(./../专辑4.png); 
+background-size: 100% 100%;
+
+}
+
+.D{
+    text-align: center;
+      width: 25%;
+      height: 400px;
+      float: left;
+    }
+.j{
+    width: 70%;
+    height: 300px;
+    background: url(./../专辑3.png); 
+    background-size: 100% 100%;
+
+    }
+
+    .E{
+        text-align: center;
+          width: 25%;
+          height: 400px;
+          float: left;
+        }
+    .k{
+        width: 70%;
+        height: 300px;
+        background: url(./../书书.png); 
+        background-size: 100% 100%;
+
+        }
+    .F{
+            text-align: center;
+              width: 25%;
+              height: 400px;
+              float: left;
+            }
+    .l{
+        width: 70%;
+        height: 300px;
+        background: url(./../书3.png); 
+        background-size: 100% 100%;
+
+            }
+    .G{
+                text-align: center;
+                  width: 25%;
+                  height: 400px;
+                  float: left;
+                }
+    .m{
+        width: 70%;
+        height: 300px;
+        background: url(./../书2.png); 
+        background-size: 100% 100%;
+
+                }
+    .H{
+                  text-align: center;
+                    width: 25%;
+                    height: 400px;
+                    float: right;
+                  }
+    .n{
+          width: 70%;
+          height: 300px;
+          background: url(./../书1.png); 
+          background-size: 100% 100%;
+
+                  }
+   .footer {
+    width: 100;
+     height: 100px;
+     background-color: dimgrey;
+    opacity: 0.5;
+    position: relative;
+                      top: 10px;
+                  }
+                  .copyright {
+                    font-family: "宋体";
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
+                    height: 60px;
+                    width: 40%;
+                    text-align:center;
+                  }
+                  .icon1 {
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    margin-left: 22px;
+                    vertical-align: middle;
+                   
+                    background-repeat: no-repeat;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                  }
+                  .icon2 {
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    margin-left: 22px;
+                    vertical-align: middle;
+                    
+                    background-repeat: no-repeat;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                  }
+                  .p {
+                    height: 24px;
+                    width: 100%;
+                  }
+                  
+            
+    
+
+
+ 
