@@ -12,7 +12,7 @@ export default class BuyPage extends React.Component{
         let dataList=[{
             id:1,
             name:"鞋子",
-            price:"6897.00",
+            price:"6891.00",
             describe:"",
 
 
