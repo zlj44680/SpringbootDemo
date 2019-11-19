@@ -60,7 +60,7 @@ export default class HomePage extends React.Component{
                     </div>
                 </Carousel>
             </div>
-            <Divider orientation="left">热门物品</Divider>
+            <Divider orientation="left"> 热门物品</Divider>
             <div className={HomePageCss.body}>
 
                 <div className={HomePageCss.text} >
