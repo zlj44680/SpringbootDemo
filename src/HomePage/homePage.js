@@ -32,7 +32,7 @@ export default class HomePage extends React.Component{
                     <Link to="/login"><li ><a href="../html/Login.html"  >登陆</a></li></Link>
                     <Link to="/register"><li><a href="../html/Register.html" >注册</a></li></Link>
                    <Link to='/shoppingcart'> <li><a href="" >我的购物车</a></li></Link>
-                   <Link to='/order'><li><a> 订单</a></li></Link>
+                   <Link to='/order'><li><a>订单</a></li></Link>
                 </div>
                 <div className={HomePageCss.container} >
 
