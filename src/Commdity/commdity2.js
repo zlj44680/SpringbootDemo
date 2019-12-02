@@ -157,6 +157,21 @@ datetime={
         </div>
         </div>
         </div>
+        <div className={CommdityCss2.Button1}>
+                <Link to="/homepage">
+                <Button shape="round" size="large"  href to="/homepage">首页</Button></Link>
+                </div>
+                <div className={CommdityCss2.Button2}>
+                <Link to="/shoppingcart">
+                <Button shape="round" size="large"  href to="/shoppingcart">购物车</Button></Link>
+                </div>
+                <div className={CommdityCss2.Button3}>
+                <Link to="/order">
+                <Button shape="round" size="large"  href to="/order">我的订单</Button></Link>
+                </div>
+
+               
+
                
 
             </div>  

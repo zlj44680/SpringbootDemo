@@ -33,6 +33,13 @@ export default class LoginPage extends React.Component{
                <Link to="/register">
                 <Button shape="round" size="large"  href to="/register">注册</Button></Link>
 
+                
+
+
+                </div>
+                <div className={LoginCss.Button1}>
+                <Link to="/homepage">
+                <Button shape="round" size="large"  href to="/homepage">首页</Button></Link>
                 </div>
 
 

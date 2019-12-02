@@ -79,3 +79,36 @@
 	height: 24px;
 	width: 100%;
 }
+.Button1{
+   
+    margin: 0;
+    padding: 0%;
+    position: absolute;
+    left:40px;
+    top:10px;
+
+    
+
+}
+.Button2{
+   
+    margin: 0;
+    padding: 0%;
+    position: absolute;
+	left:140px;
+    top:10px;
+
+    
+
+}
+.Button3{
+   
+    margin: 0;
+    padding: 0%;
+    position: absolute;
+	left:240px;
+    top:10px;
+
+    
+
+}

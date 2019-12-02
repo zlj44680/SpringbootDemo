@@ -159,6 +159,21 @@ export default class CommdityPage3 extends React.Component{
         </div>
         </div>
         </div>
+        <div className={CommdityCss3.Button1}>
+                <Link to="/homepage">
+                <Button shape="round" size="large"  href to="/homepage">首页</Button></Link>
+                </div>
+                <div className={CommdityCss3.Button2}>
+                <Link to="/shoppingcart">
+                <Button shape="round" size="large"  href to="/shoppingcart">购物车</Button></Link>
+                </div>
+                <div className={CommdityCss3.Button3}>
+                <Link to="/order">
+                <Button shape="round" size="large"  href to="/order">我的订单</Button></Link>
+                </div>
+
+               
+
                 
                
 
