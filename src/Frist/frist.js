@@ -11,7 +11,7 @@ export default class DefaultFrist extends React.Component {
         return (
         <div className={FristCss.div}>
         <div className={FristCss.Img}>
-          <div className={FristCss.text}>欢光临</div>
+          <div className={FristCss.text}>欢迎光临</div>
           <Link to ='/homepage'><div className={FristCss.d}> <Icon type="down"   /></div></Link>
         </div>
         </div>
