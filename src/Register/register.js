@@ -68,7 +68,7 @@ export default class RegisterPage extends React.Component{
          注册
         </Button>
         <Link to="/homepage"><Modal
-          title="闲置租赁平台"
+          title=" 闲置租赁平台 "
           visible={visible}
           onOk={this.handleOk}
           confirmLoading={confirmLoading}
