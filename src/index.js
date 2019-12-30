@@ -15,7 +15,7 @@ import OrderPage from './Order/order';
 import BuyPage from './Buy/buy';
 import ClassifyPage from './Classify/classify';
 import SiderDom from './Commdity/commdity4';
-
+import AlterPage from './Alter/alter';
 import EditableTable from './Admin/admin';
 import DefaultFrist from './Frist/frist';
 import DefaultShoppingCart from './Shoppingcart/shoppingcart';
@@ -49,6 +49,7 @@ class IndexPage  extends React.Component{
              <Route path="/frist" component={DefaultFrist}></Route>
              <Route path="/shoppingcart" component={DefaultShoppingCart}></Route>
              <Route path="/login1" component={Login1}></Route>
+             <Route path="/alter" component={AlterPage}></Route>
              
              
              
