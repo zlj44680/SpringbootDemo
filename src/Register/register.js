@@ -22,42 +22,32 @@ export default class RegisterPage extends React.Component{
 
       }
       upload = ()=>{
-        var xhr =new XMLHttpRequest()
+        
         var data ={
           "username":this.state.username,
           "password":this.state.password,
           "password2":this.state.password2,
 
         }
-        //open连接
-        xhr.open("post","/user/reguster")
-        //配置响应函数
-        xhr.onreadystatechange=function(){
-          if(xhr.readyState==4){
-            if(xhr.status==200){
-              message.info(xhr.responseText)
-              console.log(xhr.responseText)
-              var result = JSON.parse(xhr.responseText)
-              if(result.state==2){
-                message.info("用户名已存在！")
+        fetch("/user/register",{
+          mothod:"post",
+          headers:{
+            "Content-Type" :"application/json"
 
 
-              }else if(result.state==1){
-                message.info("注册成功！")
-                this.props.history.push("/homepage")
+          },
+          data: JSON.stringify(data)
+          
+        }).then(response=>response.json())
+        .then(result=>{
+          if(result.state==2){
+            message.info("用户已存在")
+          }else if(result.state===1){
+            message.info("注册成功")
 
-              }
-
-            }else{
-              message.info(xhr.status)
-            }
           }
-
-        }
-        //发送数据
-        xhr.setRequestHeader('content-type','application/json');
-        
-        xhr.send(JSON.stringify(data))
+        })    
+      
       }
     
     
