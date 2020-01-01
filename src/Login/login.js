@@ -70,7 +70,7 @@ export default class LoginPage extends React.Component{
                 </div>
                 
                 <div className={LoginCss.Button}> 
-                <Link to="/homepage">
+                <Link >
                 <Button shape="round" size="large" href to="/"  onClick={this.upload()}>登录</Button></Link>
                 
                <Link to="/register">

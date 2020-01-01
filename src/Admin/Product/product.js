@@ -1,18 +1,26 @@
 import React from 'react';
 import { Checkbox, Row, Col, Pagination } from 'antd';
-
+import { Button, notification } from 'antd';
 var ProductCss=require('./product.css')
 
 
 function onChange(checkedValues) {
     console.log('checked = ', checkedValues);
   }
+  const openNotificationWithIcon = type => {
+    notification[type]({
+      message: 'Notification Title',
+      description:
+        'This is the content of the notification. This is the content of the notification. This is the content of the notification.',
+    });
+  };
   
   
 
 
 
 export default class Product extends React.Component{
+  
     render(
         
     ){
@@ -21,8 +29,13 @@ export default class Product extends React.Component{
             <div>
                   <div className={ProductCss.title}>商品详情</div>
                  <div className={ProductCss.a1}>_______________________________________________________________________________________________________________________________________________________________________________________________________</div>
+
                  <div className={ProductCss.b}>
                  <div className={ProductCss.d1}><Checkbox.Group style={{ width: '100%' }} onChange={onChange}>
+                   <div className={ProductCss.s}>
+                   <Button onClick={() => openNotificationWithIcon('success')}>Success</Button>
+ 
+                   </div>
     <Row>
       
       <Col span={8}>
